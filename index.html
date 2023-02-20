@@ -1,121 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Document</title>
 </head>
+
 <body>
-<header class="first_box">
-    <a class="pop" href="#"><p>WebStudio</p></a>
-<ul class="hd_list">
-        <li class="hd_item"><a href="#">Студія</a></li>
-            <li class="hd_item"><a href="#">Портфоліо</a></li>
-                <li class="hd_item"><a href="#">Контакти</a></li>
-</ul>
-<ul class="hd_inf">
-<li class="inf_item"><svg class="sving"><use href="./images/symbol-defs.svg#envelope"></use></svg></li>
-<li class="inf_item"><p>info@devstudio.com</p></li>
-<li class="inf_item"><svg class="sving"><use href="./images/symbol-defs.svg#Vector"></use></svg></li>
-<li class="inf_item"><p>+38 096 111 11 11</p></li>
-</ul>
+    <header class="first_box">
+        <a class="logo" href="#">Web<span class="logo_part">Studio</span></a>
+        <ul class="hd_list">
+            <li class="hd_item"><a class="hd_item_1" href="#">Студія</a></li>
+            <li class="hd_item"><a class="hd_item_1" href="#">Студія</a></li>
+            <li class="hd_item"><a class="hd_item_1" href="#">Студія</a></li>
+            <li class="hd_item"><a class="hd_item_1" href="#">Портфоліо</a></li>
+            <li class="hd_item"><a class="hd_item_1" href="#">Контакти</a></li>
+        </ul>
+        <ul class="hd_inf">
+            <li class="inf_item">
 
-</header>
-<main>
+                <a class="a_item" href="mailto:info@devstudio.com"><svg class="icon_mail" height="12" width="16">
+                        <use href="img/sprite.svg#email"></use>
+                    </svg>info@devstudio.com</a>
+            </li>
+            <li class="inf_item">
+                <a class="a_item" href="tel:+380961111111"><svg class="icon_phone" height="16" width="10">
+                        <use href="img/sprite.svg#Phone"></use>
+                    </svg>+38 096 111 11 11</a>
+            </li>
+        </ul>
 
-
-
-<section>
-<div>
-<ul>
-<li>
-<h1>Ефективні рішення для вашого бізнесу</h1>
-<button>Замовити послугу</button>
-<h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-<p id="two">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, quia!</p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li><h3>ПУНКТУАЛЬНІСТЬ</h3>
-<p id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, a.</p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-    <h3>ПЛАНУВАННЯ</h3>
-<p id="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, similique.</p>
-</li>
-</ul>
-</div>
-<div>
-<ul>
-<li>
-    <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-<p id="four">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, vitae.</p>
-</li>
-</ul>
-</div>
-</section>
-<section>
-    <h2>Чим ми займаємося</h2>
-    <ul>
-<li>
-    <img src="img/img.png" alt="phone">
-<img src="img/img_second.png" alt="tablet">
-<img src="img/img_fourth.png" alt="laptop">
-</li>
-</ul>
-</section>
-<section>
-<ul class="command">
-<li>
-    <h2>Наша команнда</h2>
-<img src="img/img_third.png" alt="man">
-<p id="man">Михайло Єрмаков</p>
-<p>UI Designer</p>
-</li>
-</ul>
-<ul>
-<li>
-    <img src="img/img_fifth.jpg" alt="man">
-<p id="man_2">Микола Тарасов</p>
-<p>Marketing</p>
-</li>
-</ul>
-<ul>
-<li>
-    <img src="img/img_first.jpg" alt="woman">
-<li><p id="wooman">Ольга Репіна</p>
-<p>Frontend Developer</p>
-</li>
-</ul>
-<ul>
-<li>
-    <img src="img/img.jpg" alt="man">
-<p id="man_3">Ігор Дем’яненко</p>
-<p>Product Designer</p>
-</li>
-</ul>
-
-</section>
-</main>
-<footer >
-<ul>
-<li><p id="logo">WebStudio</p>
-<p id="city">м. Київ, пр-т Лесі Українки, 26</p>
-<p>info@example.com</p>
-<p>+38 099 111 11 11</p>
-</li>
-</ul>
-</footer> 
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container_hero">
+                <h1 class="hero_text">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero_button">Замовити послугу</button>
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="container">
+                <ul class="feature-list">
+                    <li class="feture-item">
+                        <div class="wrap-icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="img/sprite.svg#antenna"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">УВАГА ДО ЛЕТАЛЕЙ</h3>
+                        <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                            veritatis exercitationem
+                            velit magnam iure.</p>
+                    </li>
+                    <li class="feture-item">
+                        <div class="wrap-icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="img/sprite.svg#clock"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">ПУНКТУАЦІЯ</h3>
+                        <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                            veritatis exercitationem
+                            velit magnam iure.</p>
+                    </li>
+                    <li class="feture-item">
+                        <div class="wrap-icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="img/sprite.svg#diagram"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">ПЛАНУВАННЯ</h3>
+                        <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                            veritatis exercitationem
+                            velit magnam iure.</p>
+                    </li>
+                    <li class="feture-item">
+                        <div class="wrap-icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="img/sprite.svg#astronaut"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                            veritatis exercitationem
+                            velit magnam iure.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-work">
+            <div class="container">
+                <h2 class="work-title">Чим ми займаємося</h2>
+                <ul class="work-list">
+                    <li class="work-item">
+                        <img src="./img/tablet.jpg" alt="кодування програм" width="370" height="294" />
+                    </li>
+                    <li class="work-item">
+                        <img src="./img/laptop.jpg" alt="розробка моб версії" width="370" height="294" />
+                    </li>
+                    <li class="work-item">
+                        <img src="./img/colors.jpg" alt="різноманітна кольорова гамма" width="370" height="294" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-team">
+            <div class="container">
+                <h2>Наша команнда</h2>
+                <ul class="team-list">
+                    <li class="team-item">
+                        <img class="team-img" src="img/man.jpg" alt="man" width="270">
+                        <h3 class="team-title">Михайло Єрмаков</h3>
+                        <p class="team-text">UI Designer</p>
+                    </li>
+                    <li class="team-item">
+                        <img class="team-img" src="img/third_man.jpg" alt="man" width="270">
+                        <h3 class="team-title">Микола Тарасов</h3>
+                        <p class="team-text">Marketing</p>
+                    </li>
+                    <li class="team-item">
+                        <img class="team-img" src="img/woman.jpg" alt="woman" width="270">
+                        <h3 class="team-title">Ольга Репіна</h3>
+                        <p class="team-text">Frontend Developer</p>
+                    </li>
+                    <li class="team-item">
+                        <img class="team-img" src="img/second_man.jpg    " alt="man" width="270">
+                        <h3 class="team-title">Ігор Дем’яненко</h3>
+                        <p class="team-text">Product Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-client">
+            <div class="container">
+                <h3 class="clients-title">Постійні клієнти</h3>
+                <ul class="clients_list">
+                    <li class="clients_item">
+                        <svg class="clients_icon" width="45" height="50">
+                            <use href="img/sprite.svg#logo-1"></use>
+                        </svg>
+                    </li>
+                    <li class="clients_item">
+                        <svg class="clients_icon" width="45" height="50">
+                            <use href="img/sprite.svg#logo-2"></use>
+                        </svg>
+                    </li>
+                    <li class="clients_item">
+                        <svg class="clients_icon" width="45" height="50">
+                            <use href="img/sprite.svg#logo-3"></use>
+                        </svg>
+                    </li>
+                    <li class="clients_item">
+                        <svg class="clients_icon" width="75" height="70">
+                            <use href="img/sprite.svg#logo-4"></use>
+                        </svg>
+                    </li>
+                    <li class="clients_item">
+                        <svg class="clients_icon" width="45" height="50">
+                            <use href="img/sprite.svg#logo-5"></use>
+                        </svg>
+                    </li>
+                    <li class="clients_item">
+                        <svg class="clients_icon" width="70" height="70">
+                            <use href="img/sprite.svg#logo-6"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <ul>
+            <li>
+                <a class="logo_2" href="#">Web<span class="logo_part_2">Studio</span></a>
+                <p class="city">м. Київ, пр-т Лесі Українки, 26</p>
+                <p class="email_foot">info@example.com</p>
+                <p class="phone_foot">+38 099 111 11 11</p>
+            </li>
+        </ul>
+    </footer>
 </body>
+
 </html>
